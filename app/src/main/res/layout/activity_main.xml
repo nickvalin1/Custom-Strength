@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+    <Button
+        android:text="@string/startWorkoutBtnLabel"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:id="@+id/startWorkoutBtn"
+        android:onClick="startWorkout" />
+
+    <Button
+        android:text="@string/programsBtnLabel"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:id="@+id/programsBtn"
+        android:onClick="myPrograms" />
+
+    <Button
+        android:text="@string/exercisesBtnLabel"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:id="@+id/exerciseBtn"
+        android:onClick="exercises" />
+</LinearLayout>

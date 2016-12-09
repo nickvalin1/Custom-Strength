@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CustomStrength</string>
+    <string name="homeTitleIntro">Customize to Your Needs</string>
+
+    <string name="startWorkoutBtnLabel">Start Workout</string>
+    <string name="programsBtnLabel">My Programs</string>
+    <string name="exercisesBtnLabel">Exercises</string>
+    <string name="progressBtnLabel">Track Progress</string>
+    <string name="title_activity_my_programs">MyPrograms</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>
